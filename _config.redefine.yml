@@ -69,11 +69,10 @@ style:
 social_contact: # social contact icons in the first screen, you can add more by using fontawesome icon names
   enable: false 
   links:
-    github:  # your GitHub URL
-    instagram: # your Instagram URL
-    zhihu:  # your ZhiHu URL
-    twitter:  # your twitter URL
-    email:  # your email
+    bilibili: https://space.bilibili.com/321425686
+    twitter: https://twitter.com/mufeng086  # your twitter URL
+    facebook: https://www.facebook.com/profile.php?id=100081194990854
+    email: mufeng086@gmail.com # your email
     # ...... # you can add more
 
 # ---------------------------------------------------------------------------------------
@@ -113,7 +112,7 @@ menu: #you can customize, i18n files are in the theme's languages folder. fa-reg
 home_article:
   date_format: auto # date format in home page article block, value: auto | relative | YYYY-MM-DD | YYYY.MM.DD HH:mm:ss | DD/MM/YYYY | and etc. Support moment js format, see: https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/
   category:
-    enable: true # show category in home page article block
+    enable: false # show category in home page article block
     limit: 3 # max number of categories shown in home page article block
   tag:
     enable: true # show tags in home page article block
@@ -195,14 +194,17 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: false
+  enable: true
   use: waline # values: waline | gitalk | twikoo
 
   # Waline
   # See: https://waline.js.org/guide/get-started.html
   waline:
-    serverUrl:  # Waline server url(vercel) example: https://example.example.com
+    serverUrl: https://hexo-comment-self.vercel.app # Waline server url(vercel) example: https://example.example.com
     lang: zh-CN # Waline language, default: zh-CN. See: https://waline.js.org/guide/client/i18n.html
+    APP ID: V80k7BcGaG7PF9hiXK73hgYI-MdYXbMMI
+    APP Key: kkUlcAk2FNXfKEBphTRrTDwO
+    Master Key: 4P6XBNC5TxLiSlNqD3nR1na1
   
   # Gitalk
   # See: https://github.com/gitalk/gitalk
