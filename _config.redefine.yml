@@ -88,7 +88,12 @@ menu: #you can customize, i18n files are in the theme's languages folder. fa-reg
   友链: 
     path: /links
     icon: fa-regular fa-link
-    
+  个人项目: 
+    icon: fa-regular fa-code
+    submenus: 
+        高木同学信息站: https://tkgsite.mufeng086.top #第一个链接
+        高木同学共享图仓: https://shareimg.mufeng086.top #第二个链接
+        高木同学情报信息流: https://tkgsns.mufeng086.top
   # Archives: 
   #   path: /archives 
   #   icon: fa-regular fa-archive # can be empty
