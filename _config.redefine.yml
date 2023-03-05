@@ -96,11 +96,8 @@ menu: #you can customize, i18n files are in the theme's languages folder. fa-reg
   #     Blog: https://ohevan.com
   #     Friends: /friends
   # Links: 
+  #   path: /links
   #   icon: fa-regular fa-link
-  #   submenus:
-  #     Link1: /link1
-  #     Link2: /link2
-  #     Link3: /link3
 
   # ...... # you can add more
 
