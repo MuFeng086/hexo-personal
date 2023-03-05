@@ -202,9 +202,9 @@ comment:
   waline:
     serverUrl: https://hexo-comment-self.vercel.app # Waline server url(vercel) example: https://example.example.com
     lang: zh-CN # Waline language, default: zh-CN. See: https://waline.js.org/guide/client/i18n.html
-    APP ID: V80k7BcGaG7PF9hiXK73hgYI-MdYXbMMI
-    APP Key: kkUlcAk2FNXfKEBphTRrTDwO
-    Master Key: 4P6XBNC5TxLiSlNqD3nR1na1
+    APPID: V80k7BcGaG7PF9hiXK73hgYI-MdYXbMMI
+    APPKey: kkUlcAk2FNXfKEBphTRrTDwO
+    MasterKey: 4P6XBNC5TxLiSlNqD3nR1na1
   
   # Gitalk
   # See: https://github.com/gitalk/gitalk
