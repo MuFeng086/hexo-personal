@@ -1,39 +1,22 @@
 ---
-title: Hello World
+title: 面对2023
+date: 2022/12/31 17:21:25
+cover: "https://pic.imgdb.cn/item/63e4d34f4757feff33720023.jpg"
 ---
+2022，心情挣扎着走过小半年，沉闷中伴着一点“自由”的心情走过后半年。
 
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+2023年...虽然因为大半时光都是自主去面对，少了很多无谓的杂乱。但能预料到的，只有更加空洞的一年。
 
-## Quick Start
+不过过去也有好事发生。线上线下都认识了些一般意义上“能聊到一起”的人，随着在喜欢的圈子不断深入，也意外地有认识我的陌生人了。
 
-### Create a new post
+所谓“自己不在意，但别人已经有点眼熟”了吗...
 
-```bash
-$ hexo new "My New Post"
-```
+曾经、现在、今后。人可能还是那样的人，不过行为习惯在慢慢变得更好。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+今夜之后，再过一周，不过年数又多了一个1，生活又能有多大变化呢。
 
-### Run server
+三年的另一端长征，却比之前的三年更让人迷茫。
 
-```bash
-$ hexo server
-```
+迷茫令人恐慌，迷茫令人麻木。
 
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-```bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-```bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+罢了，谁不希望自己在别人面前还是个算个正常人的老实家伙呢...
