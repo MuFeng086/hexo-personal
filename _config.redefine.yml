@@ -200,7 +200,7 @@ comment:
   # Waline
   # See: https://waline.js.org/guide/get-started.html
   waline:
-    serverUrl: https://hexo-comment-self.vercel.app # Waline server url(vercel) example: https://example.example.com
+    serverUrl: https://comment.mufeng086.top # Waline server url(vercel) example: https://example.example.com
     lang: zh-CN # Waline language, default: zh-CN. See: https://waline.js.org/guide/client/i18n.html
     APPID: V80k7BcGaG7PF9hiXK73hgYI-MdYXbMMI
     APPKey: kkUlcAk2FNXfKEBphTRrTDwO
