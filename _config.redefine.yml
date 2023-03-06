@@ -94,9 +94,6 @@ menu: #you can customize, i18n files are in the theme's languages folder. fa-reg
         高木同学信息站: https://tkgsite.mufeng086.top
         高木同学共享图仓: https://shareimg.mufeng086.top
         高木同学 SNS互动区: https://tkgsns.mufeng086.top
-  站点监控: 
-    path: https://mufeng086.github.io/uptimeStatusRevise/
-    icon: fa-regular fa-monitor-waveform
   # Archives: 
   #   path: /archives 
   #   icon: fa-regular fa-archive # can be empty
