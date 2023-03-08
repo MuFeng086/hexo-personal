@@ -287,11 +287,11 @@ fontawesome: # select fontawesome versions you want to use, in order to reduce t
 footer:
   runtime: false # show website running time or not
   start_time: 2022/12/17 20:45:14 # the starting time of your website, format: yyyy/mm/dd hh:mm:ss
-  customize: <a href="https://icp.gov.moe/?keyword=20238186" target="_blank">萌ICP备20238186号</a> # customize footer message, can be html code
+  customize: <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023000653号-1 |</a><a href="https://icp.gov.moe/?keyword=20238186" target="_blank"> 萌ICP备20238186号</a> # customize footer message, can be html code
   icp: # ICP recor d number of your website, Can be null
     enable: enable
-    number: 苏ICP备2023000653号-1 # ICP record number
-    url: https://beian.miit.gov.cn/ # ICP record url
+    number:  # ICP record number
+    url:  # ICP record url
 
 # ---------------------------------------------------------------------------------------
 # Custom html code
