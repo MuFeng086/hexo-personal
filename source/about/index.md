@@ -55,4 +55,4 @@ QQ：1875153961
 若实在想要做些小赞助，那我也只能笑纳了。
 （请遵循适度、资源原则，完成以下操作）**
 
-[![QR-code.md.png](https://pic.mufeng086.top/images/2023/03/19/QR-code.md.png)](https://pic.mufeng086.top/image/PPoK)
+![QR-code.png](https://pic.mufeng086.top/images/2023/03/19/QR-code.png)
