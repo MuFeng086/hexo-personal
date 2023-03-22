@@ -93,7 +93,7 @@ menu: #you can customize, i18n files are in the theme's languages folder. fa-reg
     submenus: 
         高木同学信息站: https://takagi3.cn
         高木同学共享图仓: https://shareimg.mufeng086.top
-        高木同学 SNS互动区: https://tkgsns.mufeng086.top
+        高木同学FAN社区（BETA）: https://bbs.takagi3.cn
   # Archives: 
   #   path: /archives 
   #   icon: fa-regular fa-archive # can be empty
