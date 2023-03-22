@@ -96,7 +96,7 @@ menu: #you can customize, i18n files are in the theme's languages folder. fa-reg
         高木同学FAN社区（BETA）: https://bbs.takagi3.cn
   站点监控:
     icon: fa-regular fa-monitor-waveform
-    link: http://103.228.170.121:3001/status
+    path: http://103.228.170.121:3001/status
   # Archives: 
   #   path: /archives 
   #   icon: fa-regular fa-archive # can be empty
