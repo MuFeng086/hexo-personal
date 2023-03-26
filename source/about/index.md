@@ -49,3 +49,5 @@ Hi，这里是牧丰，全称**牧丰086**。
 
 QQ：1875153961
 邮箱：MuFeng086@gmail.com
+
+（[→ 🪙 自愿支持多个民间高木站点的良性运营](https://pic.mufeng086.top/images/2023/03/19/QR-code.png)）
