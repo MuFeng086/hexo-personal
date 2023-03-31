@@ -96,10 +96,10 @@ bangumi: # 追番设置
   showMyComment: false
   pagination: false
   metaColor:
-  color:
-  webp:
-  progress:
-  extraOrder:
+  color: cyan
+  webp: true
+  progress: true
+  extraOrder: 2
   proxy:
     host: '代理host'
     port: '代理端口'
