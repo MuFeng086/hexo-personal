@@ -156,6 +156,21 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
+  关于:
+      path: /about 
+      icon: fa-regular fa-user 
+  友链:
+      icon: fa-solid fa-link #图标
+      path: /links/
+  个人项目: 
+      icon: fa-regular fa-code
+      submenus: 
+          高木同学信息站: https://takagi3.cn
+          高木同学共享图仓: https://shareimg.takagi3.cn
+          高木同学FAN社区: https://club.takagi3.cn
+  站点监控:
+      icon: fa-regular fa-monitor-waveform
+      path: http://status.mufeng086.top/
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
@@ -262,11 +277,14 @@ comment:
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
+      serverUrl: comment.mufeng086.top
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
+      APPID: V80k7BcGaG7PF9hiXK73hgYI-MdYXbMMI
+      APPKey: kkUlcAk2FNXfKEBphTRrTDwO
+      MasterKey: 4P6XBNC5TxLiSlNqD3nR1na1
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
-      clientID: # GitHub Application Client ID
+      clientID: # GitHub Application Client ID  
       clientSecret: # GitHub Application Client Secret
       repo: # GitHub repository
       owner: # GitHub repository owner
@@ -281,13 +299,13 @@ comment:
 # FOOTER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 footer:
   # Show website running time
-  runtime: true # show website running time or not
+  runtime: false # show website running time or not
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2022/12/17 20:45:14
   # Footer message
-  customize:
+  customize: <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023000653号-1 |</a><a href="https://icp.gov.moe/?keyword=20238186" target="_blank"> 萌ICP备20238186号</a>
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: false # Whether to enable
