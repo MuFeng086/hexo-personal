@@ -1,5 +1,6 @@
 ---
 title: about
+banner: "https://pic.mufeng086.top/images/2023/02/26/banner-night.jpg"
 date: 2023-03-05 16:38:53
 ---
 Hi，这里是牧丰，全称**牧丰086**。
