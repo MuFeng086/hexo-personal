@@ -51,4 +51,4 @@ QQ：1875153961
 邮箱：MuFeng086@gmail.com
 **互换友链请通过以上方式联络，一般来者不拒 (╹ڡ╹ )**
 
-[→ 🪙 自愿支持多个民间高木站点的良性运营](https://pic.mufeng086.top/images/2023/03/19/QR-code.png)
+[🪙 自愿赞助](https://mufeng086.top/support)
