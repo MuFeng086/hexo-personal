@@ -134,11 +134,11 @@ home_banner:
     # Whether to enable
     enable: true
     # Social links
-  links:
-    bilibili: https://space.bilibili.com/321425686
-    twitter: https://twitter.com/mufeng086  # your twitter URL
-    facebook: https://www.facebook.com/profile.php?id=100081194990854
-    email: mufeng086@gmail.com # your email
+    links:
+      bilibili: https://space.bilibili.com/321425686
+      twitter: https://twitter.com/mufeng086  # your twitter URL
+      facebook: https://www.facebook.com/profile.php?id=100081194990854
+      email: mufeng086@gmail.com # your email
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
