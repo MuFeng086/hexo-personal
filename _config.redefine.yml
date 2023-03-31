@@ -163,8 +163,11 @@ navbar:
     说说:
       path: /essays
       icon: far fa-comment-alt-smile
+    追番:
+      path: https://mufeng086.top/bangumi
+      icon: fa-brands fa-bilibili
     友链:
-      icon: fa-solid fa-link #图标
+      icon: far fa-link #图标
       path: /links/
     个人项目: 
       icon: fa-regular fa-code
@@ -172,9 +175,7 @@ navbar:
           高木同学信息站: https://takagi3.cn
           高木同学共享图仓: https://shareimg.takagi3.cn
           高木同学FAN社区: https://club.takagi3.cn
-    站点监控:
-      icon: fa-regular fa-monitor-waveform
-      path: http://status.mufeng086.top/
+          站点监控: http://status.mufeng086.top/
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
