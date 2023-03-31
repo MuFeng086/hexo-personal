@@ -1,5 +1,5 @@
 ---
-title: links
-type: 友链
+title: 友链
 date: 2023-03-05 15:54:07
+type: links
 ---
