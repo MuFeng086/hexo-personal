@@ -156,19 +156,19 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
-  关于:
+    关于:
       path: /about 
       icon: fa-regular fa-user 
-  友链:
+    友链:
       icon: fa-solid fa-link #图标
       path: /links/
-  个人项目: 
+    个人项目: 
       icon: fa-regular fa-code
       submenus: 
           高木同学信息站: https://takagi3.cn
           高木同学共享图仓: https://shareimg.takagi3.cn
           高木同学FAN社区: https://club.takagi3.cn
-  站点监控:
+    站点监控:
       icon: fa-regular fa-monitor-waveform
       path: http://status.mufeng086.top/
     # Archives: 
