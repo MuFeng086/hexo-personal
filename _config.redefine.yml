@@ -10,11 +10,11 @@
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 info:
   # Site title
-  title: Theme Redefine
+  title: 牧丰的静安小站
   # Author name
-  author: The Redefine Team
+  author: 牧丰
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://mufeng086.top
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -23,9 +23,9 @@ defaults:
   # Favicon
   favicon: /images/redefine-favicon.svg
   # Site logo
-  logo: 
+  logo: https://pic.imgdb.cn/item/63f23325f144a010074186dd.jpg
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: https://pic.imgdb.cn/item/63f23325f144a010074186dd.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -62,7 +62,7 @@ global:
     scale: false # scale effect
   # Scroll progress
   scroll_progress:
-    bar: false # progress bar
+    bar: true # progress bar
     percentage: true # percentage
   # Website counter (powered by https://busuanzi.ibruce.info/)
   busuanzi_counter:
@@ -80,13 +80,13 @@ global:
 # FONTAWESOME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 fontawesome: # Pro v6.2.1
   # Thin version
-  thin: false
+  thin: true
   # Light version
-  light: false
+  light: true
   # Duotone version
-  duotone: false
+  duotone: true
   # Sharp Solid version
-  sharp_solid: false
+  sharp_solid: true
 # FONTAWESOME <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -99,7 +99,7 @@ home_banner:
     light: /images/wallhaven-wqery6-light.webp # light mode
     dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: 热爱依然，生活渐静
   # Home banner subtitle
   subtitle:
     text: [] # subtitle text, array
@@ -132,14 +132,12 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links
     links:
       github:  # your GitHub URL
-      instagram: # your Instagram URL
-      zhihu:  # your ZhiHu URL
-      twitter:  # your twitter URL
-      email:  # your email
+      twitter: https://twitter/mufeng086 # your twitter URL
+      email: mufeng086@gmail.com # your email
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
