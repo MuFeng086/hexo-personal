@@ -79,3 +79,29 @@ theme: redefine
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+  
+bangumi: # 追番设置
+  enable: true
+  source: bili
+  bgmInfoSource: 'bgmApi'
+  path: bangumi/index.html
+  vmid: 321425686
+  title: '追番'
+  quote: '年轻人看点动漫怎么了 ╰(￣ω￣ｏ)'
+  show: 1
+  lazyload: true
+  srcValue: '__image__'
+  lazyloadAttrName: 'data-src=__image__'
+  loading:
+  showMyComment: false
+  pagination: false
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  proxy:
+    host: '代理host'
+    port: '代理端口'
+  extra_options:
+    key: value
