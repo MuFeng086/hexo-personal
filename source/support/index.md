@@ -1,6 +1,6 @@
 ---
 title: 赞助
-banner: "https://pic.mufeng086.top/images/2023/02/26/banner-night.jpg"
+cover: "https://pic.mufeng086.top/images/2023/02/26/banner-night.jpg"
 date: 2023-03-31 23:34
 ---
 
