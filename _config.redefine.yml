@@ -277,7 +277,7 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system: waline # waline, gitalk, twikoo
+  system:  # waline, gitalk, twikoo
   # System configuration
   config:
     # Waline comment system. See https://waline.js.org/
