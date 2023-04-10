@@ -160,9 +160,9 @@ navbar:
     关于:
       path: /about 
       icon: fa-regular fa-user
-    说说:
-      path: /essays
-      icon: far fa-comment-alt-smile
+    # 说说:
+      # path: /essays
+      # icon: far fa-comment-alt-smile
     追番:
       path: https://mufeng086.top/bangumi
       icon: fa-brands fa-bilibili
