@@ -79,7 +79,9 @@ theme: redefine
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
-  
+
+all_minifier: true
+
 bangumi: # 追番设置
   enable: true
   source: bili
