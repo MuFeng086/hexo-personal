@@ -9,6 +9,7 @@
     "hexo": "^5.3.0",
     "hexo-all-minifier": "^0.5.7",
     "hexo-bilibili-bangumi": "^1.8.6",
+    "hexo-bilibili-card": "^0.6.1",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
     "hexo-generator-category": "^1.0.0",
