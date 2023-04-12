@@ -8,6 +8,7 @@
   "dependencies": {
     "hexo": "^5.3.0",
     "hexo-all-minifier": "^0.5.7",
+    "hexo-baidu-url-submit": "^0.0.6",
     "hexo-bilibili-bangumi": "^1.8.6",
     "hexo-bilibili-card": "^0.6.1",
     "hexo-generator-archive": "^1.0.0",
