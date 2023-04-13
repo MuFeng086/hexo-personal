@@ -169,13 +169,10 @@ navbar:
     友链:
       icon: far fa-link #图标
       path: /links/
-    个人项目: 
+    高木同学站点: 
       icon: fa-regular fa-code
-      submenus: 
-          高木同学信息站: https://takagi3.cn
-          高木同学共享图仓: https://shareimg.takagi3.cn
-          高木同学FAN社区: https://club.takagi3.cn
-          站点监控: http://status.mufeng086.top/
+      path: http://sitemap.mufeng086.top/
+
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
