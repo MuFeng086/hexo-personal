@@ -113,8 +113,3 @@ baidu_url_submit:
   host: mufeng086.top    # 在百度站长平台中添加的域名
   token: WQhE2TxQOmUIRmpx      # 秘钥
   path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
-  
-permalink: post/:abbrlink.html
-abbrlink:
-  alg: crc32  # 算法：crc16(default) and crc32
-  rep: hex    # 进制：dec(default) and hex
