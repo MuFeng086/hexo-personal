@@ -108,6 +108,25 @@ bangumi: # 追番设置
   extra_options:
     key: value
 
+cinema: # 追剧设置
+  enable: true
+  path: cinemas/index.html
+  vmid: 321425686
+  title: '追剧'
+  quote: '好看，不过更多下饭时看的'
+  show: 1
+  lazyload: true
+  srcValue: '__image__'
+  lazyloadAttrName: 'data-src=__image__'
+  loading:
+  metaColor:
+  color: cyan
+  webp: true
+  progress: true
+  extraOrder: 2
+  extra_options:
+    key: value
+
 baidu_url_submit:
   count: 1               # 提交最新的多少个链接
   host: mufeng086.top    # 在百度站长平台中添加的域名
