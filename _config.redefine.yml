@@ -161,19 +161,24 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
-    关于:
-      path: /about 
+    关于: 
       icon: fa-regular fa-user
-    说说:
+      submenus:
+        个人简介: /about
+        分类: /categories
+        标签: /tags
+    心语栏:
       path: /essays
       icon: far fa-comment-alt-smile
-    追番:
-      path: https://mufeng086.top/bangumi
+    追影音:
       icon: fa-brands fa-bilibili
+      submenus:
+        追番: https://mufeng086.top/bangumi
+        追剧: https://mufeng086.top/cinemas
     友链:
       icon: far fa-link #图标
       path: /links/
-    高木同学站点: 
+    [高木同学自建站]: 
       icon: fa-regular fa-code
       path: http://sitemap.mufeng086.top/
 
