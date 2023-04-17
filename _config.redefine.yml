@@ -169,7 +169,8 @@ navbar:
     心语区:
       icon: far fa-comment-alt-smile
       submenus: 
-        个人简介: /essays
+        个人简介: /about
+        说说: /essays
         留言板: /board
         赞助: /support
     追影音:
