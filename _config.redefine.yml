@@ -157,7 +157,7 @@ navbar:
     right: "#367df7"  #right side
     transparency: 35 #percent (10-99)
   # Navbar links
-   links:
+  links:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
