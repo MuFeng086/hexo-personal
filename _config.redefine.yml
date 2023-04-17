@@ -161,15 +161,17 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
-    关于: 
-      icon: fa-regular fa-user
+    文章: 
+      icon: fa-regular fa-book
       submenus:
-        个人简介: /about
         分类: /categories
         标签: /tags
-    心语栏:
-      path: /essays
+    心语区:
       icon: far fa-comment-alt-smile
+      submenus: 
+        个人简介: /essays
+        留言板: /board
+        赞助: /support
     追影音:
       icon: fa-brands fa-bilibili
       submenus:
