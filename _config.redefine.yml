@@ -54,7 +54,7 @@ global:
       url:  # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
-  # Sidebar width
+  # width
   sidebar_width: 210px
   # Effects on mouse hover
   hover:
@@ -210,7 +210,7 @@ navbar:
 home:
   # Sidebar settings
   sidebar:
-    enable: true # Whether to enable sidebar
+    enable: false # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
     announcement: # Announcement text
