@@ -336,7 +336,7 @@ footer:
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
   start: 2022/12/17 20:45:14
   # Footer message
-  customize: <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023000653号-1</a> | <a href="https://icp.gov.moe/?keyword=20238186" target="_blank">萌ICP备20238186号</a><br/>由 <a href="https://vercel.com/" target="_blank"><a href="https://pic.mufeng086.top/image/PIuu"><img src="https://pic.mufeng086.top/images/2023/04/17/vercel-logo-freelogovectors.net-removebg.th.png" width="3%" height="3%"></a></a>托管 | CDN加速支持：<a href="https://ohevan.com/" target="_blank">Evan Luo
+  customize: <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023000653号-1</a> | <a href="https://icp.gov.moe/?keyword=20238186" target="_blank">萌ICP备20238186号</a><br/>由 <a href="https://vercel.com/" target="_blank"><a href="https://pic.mufeng086.top/image/PIuu"><img src="https://pic.mufeng086.top/images/2023/04/17/vercel-logo-freelogovectors.net-removebg.th.png" width="11.17" height="2.64"></a></a>托管 | CDN加速支持：<a href="https://ohevan.com/" target="_blank">Evan Luo
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: false # Whether to enable
