@@ -49,4 +49,4 @@ date: 2023-03-31 23:34
 | 爱发电（推荐）                                               | 多合一收款码                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 直链：https://afdian.net/a/mufeng086                         | 支持QQ钱包、微信、支付宝直扫                                 |
-| ![afdian-.jpg](https://pic.mufeng086.top/images/2023/05/01/afdian-.jpg) | ![](https://pic.mufeng086.top/images/2023/03/19/QR-code.png) |
+| [![afdian-.md.jpg](https://pic.mufeng086.top/images/2023/05/01/afdian-.md.jpg)](https://pic.mufeng086.top/image/PMOf) | ![](https://pic.mufeng086.top/images/2023/03/19/QR-code.png) |
