@@ -187,7 +187,7 @@ navbar:
     友链:
       icon: far fa-link #图标
       path: /links/
-    《高木同学》自建站点: 
+    高木同学自建站: 
       icon: fa-regular fa-code
       path: http://sitemap.mufeng086.top/
 
