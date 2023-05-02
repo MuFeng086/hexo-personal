@@ -6,7 +6,7 @@ date: 2023-03-31 23:34
 
 # 赞助
 
-**目前涉成本的项目：**
+**目前项目：**
 
 1. 网站：
 
@@ -44,19 +44,7 @@ date: 2023-03-31 23:34
 
 2023.03.31 23:34
 
----
-
-一、爱发电（推荐）
-
-直链：https://afdian.net/a/mufeng086
-
-二维码：
-
-![afdian-.jpg](https://pic.mufeng086.top/images/2023/05/01/afdian-.jpg)
-
-
-
-二、三合一收款码
-
-
-![](https://pic.mufeng086.top/images/2023/03/19/QR-code.png)
+| 爱发电（推荐）                                               | 多合一收款码                                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 直链：https://afdian.net/a/mufeng086                         | 支持QQ钱包、微信、支付宝直扫                                 |
+| ![afdian-.jpg](https://pic.mufeng086.top/images/2023/05/01/afdian-.jpg) | ![](https://pic.mufeng086.top/images/2023/03/19/QR-code.png) |
