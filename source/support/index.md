@@ -50,7 +50,7 @@ date: 2023-03-31 23:34
 
 一、爱发电（推荐）
 
-直链：https://afdian.net/a/mufeng086
+直链：https://afdian.net/a/LightRainbow
 
 
 二、三合一收款码
