@@ -24,12 +24,12 @@ comment: true
 
 ```html
 - name: 牧丰的静安小站
-  link: https://mufeng086.top
+  link: https://mufeng086.com
   description: 热爱《高木同学》的技术萌新blog
   avatar: https://pic.imgdb.cn/item/63f23325f144a010074186dd.jpg
 ```
 
 网站名称：牧丰的静安小站
-网站地址：https://mufeng086.top
+网站地址：https://mufeng086.com
 网站标志：https://pic.imgdb.cn/item/63f23325f144a010074186dd.jpg
 网站简介：热爱《高木同学》的技术萌新blog **（如果是圈内熟人，可修改此描述）**
