@@ -2,7 +2,7 @@
 title: 友链
 date: 2023-03-05 15:54:07
 type: links
-conmment: true
+comment: true
 ---
 **这里是个探索技术的小萌新~ 朋友的列表就在上方——**
 
