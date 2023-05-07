@@ -11,7 +11,7 @@ comment: true
 
 **欢迎交换友链，不过有以下条件：**
 
-{% notel info 条件 %}
+{% notel blue 条件 %}
 1. 网站可正常访问（尽量可在非代理情况下进入你的网站）
 2. 站点内容不含有黄赌毒、暴力、迷信等违反法律法规和公序良俗的内容
 3. 全站如涉及广告栏嵌入等，需要**不强烈**影响观感。
@@ -24,7 +24,7 @@ comment: true
 
 ---
 
-{% notel success 我的信息 %}
+{% notel green 我的信息 %}
 网站名称：牧丰的静安小站
 网站地址：https://mufeng086.com
 网站标志：https://pic.imgdb.cn/item/63f23325f144a010074186dd.jpg
