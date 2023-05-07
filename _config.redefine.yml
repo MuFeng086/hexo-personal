@@ -178,18 +178,18 @@ navbar:
         个人简介: /about
         说说: /essays
         留言板: /board
-        赞助: https://mufeng086.top/support
+        赞助: /support
     追影音:
       icon: fa-brands fa-bilibili
       submenus:
-        追番: https://mufeng086.top/bangumi
-        追剧: https://mufeng086.top/cinemas
+        追番: https://mufeng086.com/bangumi
+        追剧: https://mufeng086.com/cinemas
     友链:
       icon: far fa-link #图标
       path: /links/
     高木同学自建站: 
       icon: fa-regular fa-code
-      path: http://sitemap.mufeng086.top/
+      path: http://sitemap.mufeng086.com/
 
     # Archives: 
     #   path: /archives 
