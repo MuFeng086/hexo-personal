@@ -55,4 +55,4 @@ date: 2023-03-31 23:34
 
 二、三合一收款码
 
-![](https://pic.mufeng086.top/images/2023/03/19/QR-code.png)
+![QR-code.png](https://pic.mufeng086.com/i/2023/05/08/64588943c2084.png)
