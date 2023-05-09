@@ -28,8 +28,6 @@ comment: true
 网站标志：https://pic.imgdb.cn/item/63f23325f144a010074186dd.jpg
 网站简介：热爱《高木同学》的技术萌新blog **（如果是圈内熟人，可修改此描述）**
 
-提交信息最好使用下方形式（方便我直接导入），当然图方便就用上面的形式，任君选用~
-
 ```html
 - name: 牧丰的静安小站
   link: https://mufeng086.com
