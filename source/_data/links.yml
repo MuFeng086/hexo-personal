@@ -31,12 +31,17 @@
 - name: Southerly 个人博客
   link: http://www.southerly.top
   description: 一个正在努力搬砖的程序员，记录生活，分享生活，欢迎大家来访。
-  avatar: https://www.southerly.top/imgs/favicon.ico
+  avatar: https://pic2.imgdb.cn/item/6459d4e00d2dde5777d73c3e.png
   
 - name: 安辰博客
   link: https://blog.zh52.cn/
   description: 梦的尽头是一个人，一个永远不会醒来的梦
   avatar: https://pic2.imgdb.cn/item/6458acd20d2dde5777a5f054.jpg
+  
+- name: 丫丫博客
+  link: https://blog.yaqwq.top
+  description: 小丫丫的技术分享博客
+  avatar: https://tc.yaqwq.top/LightPicture/2023/01/43f7d2a719b9dfb4.png
   
   
 
