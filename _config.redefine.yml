@@ -10,9 +10,9 @@
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 info:
   # Site title
-  title: 牧丰的静安小站
+  title: 轻虹空雨的小圈
   # Author name
-  author: 牧丰
+  author: 轻虹空雨
   # Site URL
   url: https://mufeng086.com
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -23,9 +23,9 @@ defaults:
   # Favicon
   favicon: /images/redefine-favicon.svg
   # Site logo
-  logo: https://pic.imgdb.cn/item/63f23325f144a010074186dd.jpg
+  logo: https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg
   # Site avatar
-  avatar: https://pic.imgdb.cn/item/63f23325f144a010074186dd.jpg
+  avatar: https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
