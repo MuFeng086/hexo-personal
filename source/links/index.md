@@ -25,12 +25,12 @@ comment: true
 **我的信息(2023.5.13改名更新）：**
 网站名称：轻虹空雨的小圈
 网站地址：https://mufeng086.com
-网站标志：https://pic.imgdb.cn/item/63f23325f144a010074186dd.jpg
+网站标志：https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg
 网站简介：热爱《高木同学》的技术萌新blog **（如果是圈内熟人，可修改此描述）**
 
 ```html
 - name: 轻虹空雨的小圈
   link: https://mufeng086.com
   description: 热爱《高木同学》的技术萌新blog
-  avatar: https://pic.imgdb.cn/item/63f23325f144a010074186dd.jpg
+  avatar: https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg
 ```
