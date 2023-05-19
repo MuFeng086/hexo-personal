@@ -48,11 +48,7 @@ date: 2023-03-31 23:34
 
 ---
 
-一、爱发电（推荐）
-
-直链：https://afdian.net/a/LightRainbow
+[![](https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.jpg)](https://afdian.net/a/LightRainbow)
 
 
-二、三合一收款码
-
-![QR-code.png](https://pic.mufeng086.com/i/2023/05/08/64588943c2084.png)
+[三合一收款码↗](https://pic.mufeng086.com/i/2023/05/08/64588943c2084.png) （务必附上您的昵称）
