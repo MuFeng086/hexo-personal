@@ -21,9 +21,9 @@ info:
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg
   # Site logo
-  logo: https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg
+  logo: 
   # Site avatar
   avatar: https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
