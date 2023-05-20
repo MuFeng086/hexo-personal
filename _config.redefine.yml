@@ -168,8 +168,9 @@ navbar:
       path: / 
       icon: fa-regular fa-house # can be empty
     文章: 
-      icon: fa-regular fa-book
+      icon: fa-regular fa-archive
       submenus:
+        归档: /archives
         分类: /categories
         标签: /tags
     心语区:
