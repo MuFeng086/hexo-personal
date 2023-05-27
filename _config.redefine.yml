@@ -185,15 +185,14 @@ navbar:
       submenus:
         追番: https://mufeng086.com/bangumi
         追剧: https://mufeng086.com/cinemas
-    友链:
+    链接:
       icon: far fa-link #图标
-      path: /links/
-    动漫相关自建站: 
-      icon: fa-regular fa-code
       submenus: 
+        友链: /links/
         [站点监控]: https://status.mufeng086.com
         同好论坛: https://club.takagi3.cn
-        站点导航: https://sitemap.mufeng086.com
+        站点导航: https://takagi3.cn
+
 
     # Archives: 
     #   path: /archives 
