@@ -102,8 +102,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    light: /images/Your_Name_light.jpg # light mode
+    dark: /images/Your_Name_Night.jpg # dark mode
   # Home banner title
   title: 热爱依然，生活仍然
   # Home banner subtitle
