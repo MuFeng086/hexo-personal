@@ -361,6 +361,15 @@ inject:
   head: 
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script>LA.init({id:"K565G7nBIQg7uunD",ck:"K565G7nBIQg7uunD"})</script>
+    - <!-- Google tag (gtag.js) -->
+    - <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPX709T4PN"></script>
+    - <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZPX709T4PN');
+    - </script>
   # Inject custom footer html code
   footer:
     -
