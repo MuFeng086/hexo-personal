@@ -47,8 +47,7 @@ date: 2023-03-31 23:34
 2023.03.31 23:34
 
 ---
+**1. 爱发电（推荐）**
+<img src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.jpg" width="50%">
 
-[![](https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.jpg)](https://afdian.net/a/LightRainbow)
-
-
-[三合一收款码↗](https://pic.mufeng086.com/i/2023/05/08/64588943c2084.png) （务必附上您的昵称）
+**2. [三合一收款码↗](https://pic.mufeng086.com/i/2023/05/08/64588943c2084.png) （请务必在备注中附上您的昵称）**
