@@ -1,32 +1,38 @@
-- name: 一只鬆的博客
-  link: https://takagi.icu/
-  description: 圈内技术佬之一
-  avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c18e.jpg
+- links_category: Friends #分类名称
+  has_thumbnail: true #是否显示网站大图
+  list:
+  - name: 一只鬆的博客
+    link: https://takagi.icu/
+    description: 圈内技术佬之一
+    avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c18e.jpg
 
-- name: 南栀Space
-  link: https://litkg.com/
-  description: 爱高木的技术玩家
-  avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c114.jpg
+  - name: 南栀Space
+    link: https://litkg.com/
+    description: 爱高木的技术玩家
+    avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c114.jpg
 
-- name: Jack's Blog
-  link: https://cherrysigma.com/
-  description: Q群机器人-梯子bot开发者
-  avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c1e4.jpg
+  - name: Jack's Blog
+    link: https://cherrysigma.com/
+    description: Q群机器人-梯子bot开发者
+    avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c1e4.jpg
 
-- name: wfh132导航站
-  link: https://wfh132.top/
-  description: (wordpress资料还不错哦~）
-  avatar: https://pic.imgdb.cn/item/62eb79e216f2c2beb1707ce6.png
-  
-- name: 鱼の博客
-  link: https://yuqwq.top
-  description: 一个个人博客，精选优质网络资源！
-  avatar: https://tc.yuqwq.top/i/2023/04/02/k5v3u5.png
+  - name: wfh132导航站
+    link: https://wfh132.top/
+    description: (wordpress资料还不错哦~）
+    avatar: https://pic.imgdb.cn/item/62eb79e216f2c2beb1707ce6.png
 
-- name: 生草博客
-  link: https://blog.cnm.yt
-  description: 一个长满草的博客
-  avatar: https://blog.cnm.yt/wp-content/uploads/2023/05/a2a7641a26b367608c6ef28ce9b7e983_edit_727656478802908.png
+- links_category: Others #分类名称
+  has_thumbnail: false #是否显示网站大图
+  list:
+  - name: 鱼の博客
+    link: https://yuqwq.top
+    description: 一个个人博客，精选优质网络资源！
+    avatar: https://tc.yuqwq.top/i/2023/04/02/k5v3u5.png
+
+  - name: 生草博客
+    link: https://blog.cnm.yt
+    description: 一个长满草的博客
+    avatar: https://blog.cnm.yt/wp-content/uploads/2023/05/a2a7641a26b367608c6ef28ce9b7e983_edit_727656478802908.png
   
   
 
