@@ -1,39 +1,39 @@
 - links_category: Friends/合作同伴 #分类名称
   has_thumbnail: true #是否显示网站大图
   list:
-  - name: 一只鬆的博客
+  - 名字: 一只鬆の小站
     link: https://takagi.icu/
-    description: 圈内技术佬之一
+    描述: 圈内技术佬之一
     avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c18e.jpg
-    thumbnail: https://pic.imgdb.cn/item/6497adba1ddac507ccb718f0.webp
+    thumbnail: https://pic.imgdb.cn/item/6497cbd01ddac507cce6c8ad.png
 
-  - name: 南栀Space
+  - 名字: 南栀Space
     link: https://litkg.com/
-    description: 爱高木的技术玩家
+    描述: 爱高木的技术玩家
     avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c114.jpg
     thumbnail: https://pic.imgdb.cn/item/649540721ddac507cc7102af.webp
 
-  - name: Jack's Blog
+  - 名字: Jack's Blog
     link: https://cherrysigma.com/
-    description: Q群机器人-梯子bot开发者
+    描述: Q群机器人-梯子bot开发者
     avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c1e4.jpg
     thumbnail: https://pic.imgdb.cn/item/649540741ddac507cc7105b8.webp
 
-  - name: 糖の小站
+  - 名字: 糖の小站
     link: https://waterapple09.com/
-    description: 届ける言葉を今は育ててる
+    描述: 届ける言葉を今は育ててる
     avatar: https://pic.imgdb.cn/item/649542ed1ddac507cc761659.png
     thumbnail: https://pic.imgdb.cn/item/6495420b1ddac507cc743e9b.webp
 
 - links_category: Others #分类名称
   has_thumbnail: false #是否显示网站大图
   list:
-  - name: wfh132导航站
+  - 名字: wfh132导航站
     link: https://wfh132.top/
-    description: (wordpress资料还不错哦~)
+    描述: (wordpress资料还不错哦~)
     avatar: https://pic.imgdb.cn/item/62eb79e216f2c2beb1707ce6.png
 
-  - name: 鱼の博客
+  - 名字: 鱼の博客
     link: https://yuqwq.top
     description: 一个个人博客，精选优质网络资源！
     avatar: https://tc.yuqwq.top/i/2023/04/02/k5v3u5.png
