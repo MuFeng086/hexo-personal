@@ -3,7 +3,7 @@
   list:
   - name: 一只鬆の小站
     link: https://takagi.icu/
-    descroption: 圈内技术佬之一
+    description: 圈内技术佬之一
     avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c18e.jpg
     thumbnail: https://pic.imgdb.cn/item/6497cbd01ddac507cce6c8ad.png
 
@@ -25,7 +25,7 @@
     avatar: https://pic.imgdb.cn/item/649542ed1ddac507cc761659.png
     thumbnail: https://pic.imgdb.cn/item/6495420b1ddac507cc743e9b.webp
 
-- links_category: Others #分类名称
+- links_category: Other #分类名称
   has_thumbnail: false #是否显示网站大图
   list:
   - name: wfh132导航站
