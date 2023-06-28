@@ -315,7 +315,7 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system: waline # waline, gitalk, twikoo
+  system: twikoo # waline, gitalk, twikoo
   # System configuration
   config:
     # Waline comment system. See https://waline.js.org/
@@ -330,8 +330,8 @@ comment:
       owner: # GitHub repository owner
     # Twikoo comment system. See https://twikoo.js.org/
     twikoo:
-      version: 1.6.16 # Twikoo version, do not modify if you dont know what it is
-      server_url: https://comment.mufeng086.com # Twikoo server URL. e.g. https://example.example.com
+      version:  # Twikoo version, do not modify if you dont know what it is
+      server_url: http://comment.mufeng086.com # Twikoo server URL. e.g. https://example.example.com
       region: # Twikoo region. can be empty
 	  # Giscus comment system. See https://giscus.app/ 
     giscus: 
