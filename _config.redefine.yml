@@ -191,6 +191,9 @@ navbar:
         友链: /links/
         [站点监控]: https://status.mufeng086.com
         站点导航: https://takagi3.cn
+    特别活动:
+      icon: fa fa-bullhorn
+      path: /special-takagi-2023-summer
 
 
     # Archives: 
