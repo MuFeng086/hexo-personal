@@ -60,12 +60,10 @@ comment: true
 【本论坛站点对于移动端使用一样友好】
 
 流程如下：
-1. 进入站点并注册账号。
-2. 发帖（在选择tag时，请只选择“特别活动”）
-   ![](https://pic.imgdb.cn/item/64a17d391ddac507cc51d018.webp)
-3. 请切换至“特别活动”tag话题页 - 快速跳转：https://club.takagi3.cn/t/special
+1. 进入站点并注册账号。  
+2. 请切换至“特别活动”tag话题页 - 快速跳转：https://club.takagi3.cn/t/special
    （移动端请点击中间上方按钮选择话题tag页面）
-4. 在tag页中，可以看见不同的，由我创建的主题帖，请直接回复主题帖，回复内容为你要参与的内容。
+3. 在tag页中，可以看见不同的，由我创建的主题帖，请直接回复主题帖，回复内容为你要参与的内容。
    每个人可无限修改、发送回复帖。
    ![](https://pic.imgdb.cn/item/64a1805c1ddac507cc58d0d0.webp)
 
