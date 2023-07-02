@@ -5,10 +5,10 @@ comment: true
 ---
 # 2023《高木同学》内容共笔企划
 
-{% note primary  %}
+{% note primary fa-chevron-circle-right  %}
 正在推进中...
 {% endnote %}
-{% note primary  %}
+{% note info fa-info  %}
 本页内容目前未定稿
 {% endnote %}
 
