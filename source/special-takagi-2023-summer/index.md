@@ -8,7 +8,7 @@ comment: true
 {% note primary fa-chevron-circle-right  %}
 正在推进中...
 {% endnote %}
-{% note info fa-info  %}
+{% note info fa-info-circle  %}
 本页内容目前未定稿
 {% endnote %}
 
