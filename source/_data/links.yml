@@ -28,10 +28,10 @@
 - links_category: Other #分类名称
   has_thumbnail: false #是否显示网站大图
   list:
-  - name: wfh132导航站
-    link: https://wfh132.top/
-    description: (wordpress资料还不错哦~)
-    avatar: https://pic.imgdb.cn/item/62eb79e216f2c2beb1707ce6.png
+  - name: wfh132博客
+    link: https://wfh132.top
+    description: 樱，你幸福吗？—是的。—凛与微笑着的樱
+    avatar: https://pic.imgdb.cn/item/64a2c26e1ddac507cc3f0e19.jpg
 
   - name: 鱼の博客
     link: https://yuqwq.top
