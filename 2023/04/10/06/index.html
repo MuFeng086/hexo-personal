@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><!-- hexo injector head_begin start -->
+<link rel="stylesheet" href="/css/bilicard.css">
+<!-- hexo injector head_begin end -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="博客,Flarum">
+    
+    <meta name="author" content="轻虹空雨">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    
+        
+            <link rel="preconnect" href="https://npm.elemecdn.com" crossorigin>
+        
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://mufeng086.com/2023/04/10/06/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="前言 本文中提及的插件大部分为博主自建论坛所用，会额外推荐其他插件。这些可能与您的需求不一致，您可以前往Flarum中文社区 、Flarum官方英文社区 、extiverse插件展示站  等寻找更多插件。以下插件均经博主实测可正常运行（博主的运行环境：CentOS 7.9，Flarum V1.7.2，PHP 8.1）   使用安装插件命令前，请务必确保已处于站点文件目录     0. 清除缓存（插">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Flarum论坛插件推荐（亲测可用，截至V1.7.2）">
+<meta property="og:url" content="https://mufeng086.com/2023/04/10/06/index.html">
+<meta property="og:site_name" content="牧丰的静安小站">
+<meta property="og:description" content="前言 本文中提及的插件大部分为博主自建论坛所用，会额外推荐其他插件。这些可能与您的需求不一致，您可以前往Flarum中文社区 、Flarum官方英文社区 、extiverse插件展示站  等寻找更多插件。以下插件均经博主实测可正常运行（博主的运行环境：CentOS 7.9，Flarum V1.7.2，PHP 8.1）   使用安装插件命令前，请务必确保已处于站点文件目录     0. 清除缓存（插">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-04-10T08:34:22.000Z">
+<meta property="article:modified_time" content="2023-07-21T02:04:51.924Z">
+<meta property="article:author" content="牧丰">
+<meta property="article:tag" content="扩展">
+<meta property="article:tag" content="推荐">
+<meta property="article:tag" content="Flarum">
+<meta property="article:tag" content="论坛">
+<meta name="twitter:card" content="summary">
+    
+    
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPX709T4PN"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZPX709T4PN');
+        </script>
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            Flarum论坛插件推荐（亲测可用，截至V1.7.2） -
+        
+        轻虹空雨的小圈
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fonts/fonts.css">
+    <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fonts/Satoshi/satoshi.css">
+    <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fonts/Chillax/chillax.css">
+    <!--- Font Part-->
+    
+    
+    
+    
+
+    <!--- Inject Part-->
+    
+        
+            
+    
+            
+    
+            
+                
+                    <script data-pjax charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+                
+    
+            
+                
+                    <script data-pjax>LA.init({id:"K565G7nBIQg7uunD",ck:"K565G7nBIQg7uunD"})</script>
+                
+    
+            
+                
+                    <!-- Google tag (gtag.js) -->
+                
+    
+            
+                
+                    <script data-pjax async src="https://www.googletagmanager.com/gtag/js?id=G-ZPX709T4PN"></script>
+                
+    
+            
+                
+                    <script data-pjax> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+gtag('config', 'G-ZPX709T4PN');
+                
+    
+            
+                
+                    </script>
+                
+    
+    <script id="hexo-configurations">
+    let Global = window.Global || {};
+    Global.hexo_config = {"hostname":"mufeng086.com","root":"/","language":"zh-CN","path":"search.xml"};
+    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":false,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":true,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"busuanzi_counter":{"enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"pjax":true,"open_graph":true,"google_analytics":{"enable":true,"id":"G-ZPX709T4PN"}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/background_images/Your_Name_illustration_Day.jpg","dark":"/background_images/Your_Name_illustration_Night.jpg"},"title":"热爱依然，生活仍然","subtitle":{"text":["（原 @牧丰086）"],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"links":{"github":"https://github.com/MuFeng086","instagram":null,"zhihu":null,"twitter":"https://twitter.com/mufeng086","email":"mufeng086@gmail.com","bilibili":"https://space.bilibili.com/321425686","facebook":"https://www.facebook.com/profile.php?id=100081194990854"}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.2.1","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"文章":{"icon":"fa-regular fa-archive","submenus":{"归档":"/archives","分类":"/categories","标签":"/tags"}},"心语区":{"icon":"far fa-comment-alt-smile","submenus":{"个人简介":"/about","说说":"/essays","留言板":"/board","赞助":"/support"}},"追影音":{"icon":"fa-brands fa-bilibili","submenus":{"追番":"https://mufeng086.com/bangumi","追剧":"https://mufeng086.com/cinemas"}},"链接":{"icon":"far fa-link","submenus":{"友链":"/links/","站点监控":"https://status.mufeng086.com","站点导航":"https://takagi3.cn"}},"特别活动":{"icon":"fa fa-bullhorn","path":"/special-takagi-2023-summer"}},"search":{"enable":false,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":false,"position":"left","first_item":"menu","announcement":null,"links":null},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/12/17 20:45:14"};
+    Global.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    Global.data_config = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fontawesome/brands.min.css">
+    <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fontawesome/solid.min.css">
+    <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fontawesome/regular.min.css">
+    
+        <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fontawesome/thin.min.css">
+    
+    
+        <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fontawesome/light.min.css">
+    
+    
+        <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fontawesome/duotone.min.css">
+    
+    
+        <link rel="stylesheet" href="//evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/fontawesome/sharp-solid.min.css">
+    
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="main-content-container">
+
+        <div class="main-content-header">
+            <header class="navbar-container">
+    
+    <div class="navbar-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                
+                轻虹空雨的小圈
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-house"></i>
+                                        
+                                        首页
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown" 
+                                    href="#" onClick="return false;">
+                                    
+                                        
+                                            <i class="fa-regular fa-archive"></i>
+                                        
+                                        文章&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                    
+                                        <li>
+                                        <a href="/archives">归档
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="/categories">分类
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="/tags">标签
+                                        </a>
+                                        </li>
+                                    
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown" 
+                                    href="#" onClick="return false;">
+                                    
+                                        
+                                            <i class="far fa-comment-alt-smile"></i>
+                                        
+                                        心语区&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                    
+                                        <li>
+                                        <a href="/about">个人简介
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="/essays">说说
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="/board">留言板
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="/support">赞助
+                                        </a>
+                                        </li>
+                                    
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown" 
+                                    href="#" onClick="return false;">
+                                    
+                                        
+                                            <i class="fa-brands fa-bilibili"></i>
+                                        
+                                        追影音&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                    
+                                        <li>
+                                        <a href="https://mufeng086.com/bangumi">追番
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a href="https://mufeng086.com/cinemas">追剧
+                                        </a>
+                                        </li>
+                                    
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown" 
+                                    href="#" onClick="return false;">
+                                    
+                                        
+                                            <i class="far fa-link"></i>
+                                        
+                                        链接&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                    
+                                        <li>
+                                        <a href="/links/">友链
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a target="_blank" rel="noopener" href="https://status.mufeng086.com">站点监控
+                                        </a>
+                                        </li>
+                                    
+                                        <li>
+                                        <a target="_blank" rel="noopener" href="https://takagi3.cn">站点导航
+                                        </a>
+                                        </li>
+                                    
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/special-takagi-2023-summer"  >
+                                    
+                                        
+                                            <i class="fa fa-bullhorn"></i>
+                                        
+                                        特别活动
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="navbar-drawer">
+        <ul class="drawer-navbar-list">
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/"  >
+                             
+                                
+                                    <i class="fa-regular fa-house"></i>
+                                
+                                首页
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="has-dropdown" 
+                        href="#" onClick="return false;">
+                            
+                                
+                                    <i class="fa-regular fa-archive"></i>
+                                
+                                文章&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                              
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" href="/archives">归档</a>
+                            </li>
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" href="/categories">分类</a>
+                            </li>
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" href="/tags">标签</a>
+                            </li>
+                        
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="has-dropdown" 
+                        href="#" onClick="return false;">
+                            
+                                
+                                    <i class="far fa-comment-alt-smile"></i>
+                                
+                                心语区&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                              
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" href="/about">个人简介</a>
+                            </li>
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" href="/essays">说说</a>
+                            </li>
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" href="/board">留言板</a>
+                            </li>
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" href="/support">赞助</a>
+                            </li>
+                        
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="has-dropdown" 
+                        href="#" onClick="return false;">
+                            
+                                
+                                    <i class="fa-brands fa-bilibili"></i>
+                                
+                                追影音&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                              
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" href="https://mufeng086.com/bangumi">追番</a>
+                            </li>
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" href="https://mufeng086.com/cinemas">追剧</a>
+                            </li>
+                        
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="has-dropdown" 
+                        href="#" onClick="return false;">
+                            
+                                
+                                    <i class="far fa-link"></i>
+                                
+                                链接&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                              
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" href="/links/">友链</a>
+                            </li>
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" target="_blank" rel="noopener" href="https://status.mufeng086.com">站点监控</a>
+                            </li>
+                        
+                            <li class="dropdown-item flex-center">
+                                <a class="dropdown-item" target="_blank" rel="noopener" href="https://takagi3.cn">站点导航</a>
+                            </li>
+                        
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/special-takagi-2023-summer"  >
+                             
+                                
+                                    <i class="fa fa-bullhorn"></i>
+                                
+                                特别活动
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            
+            
+                <div class="article-title">
+                    <h1 class="article-title-regular">Flarum论坛插件推荐（亲测可用，截至V1.7.2）</h1>
+                </div>
+            
+                
+            
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="https://pic2.imgdb.cn/item/645c58bc0d2dde577762b1fc.jpg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">轻虹空雨</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2023-04-10 16:34:22</span>
+        <span class="mobile">2023-04-10 16:34</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2023-07-21 10:04:51</span>
+            <span class="mobile">2023-07-21 10:04</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E6%8A%80%E6%9C%AF%E6%8E%A2%E7%B4%A2/">技术探索</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E6%89%A9%E5%B1%95/">扩展</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E6%8E%A8%E8%8D%90/">推荐</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Flarum/">Flarum</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E8%AE%BA%E5%9D%9B/">论坛</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content markdown-body">
+                <div class="note-large blue"><div class="notel-title"><p>前言</p>
+</div><div class="notel-content"><p>本文中提及的插件大部分为博主自建论坛所用，会额外推荐其他插件。这些可能与您的需求不一致，您可以前往<a class="link"   target="_blank" rel="noopener" href="https://discuss.flarum.org.cn/" >Flarum中文社区 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>、<a class="link"   target="_blank" rel="noopener" href="https://discuss.flarum.org/" >Flarum官方英文社区 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>、<a class="link"   target="_blank" rel="noopener" href="https://extiverse.com/" >extiverse插件展示站 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 等寻找更多插件。<br>以下插件均经博主实测可正常运行（博主的运行环境：CentOS 7.9，Flarum V1.7.2，PHP 8.1）</p>
+</div></div>
+
+<div class="note warning"><p>使用安装插件命令前，请务必确保已处于站点文件目录</p>
+</div>
+
+
+
+<p><strong>0. 清除缓存（插件安装或配置后最好通过以下命令清除缓存以减少意外bug等的发生）</strong></p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">php flarum cache:clear</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="一、帖子编辑、发布等"><a href="#一、帖子编辑、发布等" class="headerlink" title="一、帖子编辑、发布等"></a>一、帖子编辑、发布等</h2><ol>
+<li><p>在帖子中插入 Font Awesome 图标</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> antoinefr/flarum-ext-bbcode-fa</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>发布时预览</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> zerosonesfun/composer-preview</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>显示帖子的修改记录</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> the-turk/flarum-diff</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>帖子内投票</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/polls</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>自动识别并实时显示图片、视频链接</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/formatting</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h2 id="二、显示、美化"><a href="#二、显示、美化" class="headerlink" title="二、显示、美化"></a>二、显示、美化</h2><ol>
+<li><p>简体中文语言包</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> flarum-lang/chinese-simplified</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>实现网页帖子实时刷新（推荐论坛达到一定用户体量时采用）</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> ramesh-dada/realtime</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>增强对图片的操作优化</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> darkle/fancybox</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>移动端底部菜单栏</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> acpl/mobile-tab</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>帖子摘要</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> ianm/synopsis</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>链接内容预览<strong>（正常显示但大概率点击无反应，慎用）</strong></p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> datlechin/flarum-link-preview</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>移动端搜索组件<strong>（显示可能错位，此时需要后期CSS优化）</strong></p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> flarumtr/flarum-ext-mobile-search</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>以id数字代替原生长地址链接</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> pipecraft/flarum-ext-id-slug</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>Font Awesome 6 图标库<strong>（可能会影响功能按钮图标的显示）</strong></p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> blomstra/fontawesome</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>论坛用户名录</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/user-directory</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>自定义静态页面（适用于站点介绍等，可用于独立链接）（HTML页面）</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/pages</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>导航栏显示日&#x2F;夜间显示模式切换按钮</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/nightmode</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>导航栏链接</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/links</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>将全部帖子显示在论坛首页</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/frontpage</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>显示发帖时用户使用的操作系统<strong>（可能因用户栏多组件挤压造成显示不美观）</strong></p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> datlechin-posted-on</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>被暂停账号的明显显示</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> matteociaroni-<span class="keyword">public</span>-suspensions</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>“相关帖子”</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> nearata/related-discussions</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>正&#x2F;逆序排序按钮</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> blomstra-sort-order-toggle</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>更改站点&#x2F;扩展的多语言显示文字</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof-linguist</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>在用户头像增加色圈显示用户组</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> clarkwinkelmann-circle-groups</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h2 id="三、用户互动-x2F-使用"><a href="#三、用户互动-x2F-使用" class="headerlink" title="三、用户互动&#x2F;使用"></a>三、用户互动&#x2F;使用</h2><ol>
+<li><p>关注标签（主题）</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/follow-tags</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>关注帖子</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> flarum/subscriptions</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>【用户视角】我的关注标签（主题）</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> acpl/my-tags</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>关注他人并在Ta发布新帖子时收到通知</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> ianm/follow-users</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>浏览帖子记录</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> michaelbelgium/flarum-discussion-views</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>帖子收藏夹</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> clarkwinkelmann/flarum-ext-bookmarks</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>帖子草稿箱（也有定时发布功能）</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/drafts</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>金钱系统</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">antoinefr/flarum-ext-money</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>每日签到<strong>（需搭配35.前置组件）</strong></p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> ziiven/flarum-daily-check-in</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>用户徽章</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> v17development/flarum-user-badges</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>（向授权人员）申请更改个人昵称</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/username-request</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>文件上传组件</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/upload</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>社交网络图标</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/socialprofile</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>用户头像上传时可裁剪</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/profile-image-crop</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>聚合登录（QQ、微信、微博等）<strong>【须获取<a class="link"   target="_blank" rel="noopener" href="https://u.cccyun.cc/" >彩虹聚合登录 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>api】</strong></p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> cccyun/flarum-clogin-oauth</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>emoji表情选择器（优化型）</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> clarkwinkelmann/flarum-ext-emojionearea</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>举报帖子</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> flarum/flags</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>【用户视角】屏蔽某人的帖子</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/ignore-users</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>以帖子主题名进行搜索</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> ganuonglachanh-search</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>正&#x2F;逆序排序按钮</p>
+</li>
+</ol>
+   <div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> blomstra-sort-order-toggle</span><br></pre></td></tr></table></figure></div>
+
+<ol start="21">
+<li>中文搜索</li>
+</ol>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> ganuonglachanh/flarum-ext-search</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="四、论坛管理"><a href="#四、论坛管理" class="headerlink" title="四、论坛管理"></a>四、论坛管理</h2><ol>
+<li><p>用户注册后自动分配身份组</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/<span class="keyword">default</span>-group</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>设置邀请码可入</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/doorman</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>站务警告</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> askvortsov/flarum-moderator-warnings</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>按特定条件过滤注册账户时的电子邮件</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> nyu8/flarum-email-filter</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>过滤关键词，触发自动移入待审核</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/filter</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>（刷站点数据）</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> migratetoflarum/fake-data</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>帖子超级置顶</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> the-turk/flarum-stickiest</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>精华帖</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/frontpage</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>修改帖子的发布信息</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> clarkwinkelmann/flarum-ext-author-change</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>禁止一次性邮箱注册</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/disposable-emails</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>封禁ip</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/ban-ips</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>封禁用户</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/ignore-users</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>站点地图生成</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/sitemap</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>合并帖子</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/merge-discussions</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>拆分帖子</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/split</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>最佳回复</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> fof/best-answer</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>黑名单</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> justoverclock/username-blacklist</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>中文搜索</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> ganuonglachanh/flarum-ext-search</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>个人主页背景头图<strong>（对图片比例有要求，慎用）</strong></p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> sycho/flarum-profile-cover</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>站务警告</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> askvortsov/flarum-moderator-warnings</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>锁定帖子（其后无法添加回复）</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> flarum/lock</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>日志记录（免费版）</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> kilowhat/flarum-ext-audit-free</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>针对帖子的复选框</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> clarkwinkelmann/mass-actions</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>移帖</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> sycho/move-posts</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h2 id="五、首页小组件"><a href="#五、首页小组件" class="headerlink" title="五、首页小组件"></a>五、首页小组件</h2><div class="note info"><p>提醒：首页小组件不宜过多，按需取用</p>
+</div>
+
+<ol>
+<li><p><strong>【前置组件】小组件引擎</strong></p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> afrux/forum-widgets-core</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>论坛数据</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> afrux/forum-stats-widget</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>热门帖</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> justoverclock/hot-discussions</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>最新注册用户显示</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> justoverclock/last-registered-users</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>公告栏</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> afrux/news-widget</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>在线成员</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> afrux/online-users-widget</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>管理组成员栏</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> justoverclock/staff-members-widget</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>发帖量排行榜</p>
+<div class="highlight-container" data-rel="Php"><figure class="iseeu highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer <span class="keyword">require</span> afrux/top-posters-widget</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> Flarum论坛插件推荐（亲测可用，截至V1.7.2）</li>
+        <li><strong>作者:</strong> 轻虹空雨</li>
+        <li><strong>创建于:</strong> 2023-04-10 16:34:22</li>
+        
+            <li>
+                <strong>更新于:</strong> 2023-07-21 10:04:51
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://mufeng086.com/2023/04/10/06/
+        </li>
+        <li>
+            <strong>版权声明:</strong> 本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a> 进行许可。
+        </li>
+    </ul>
+</div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E6%89%A9%E5%B1%95/">#扩展</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E6%8E%A8%E8%8D%90/">#推荐</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/Flarum/">#Flarum</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E8%AE%BA%E5%9D%9B/">#论坛</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                            rel="prev"
+                            href="/2023/05/03/07/"
+                            >
+                                <span class="left arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </span>
+                                <span class="title flex-center">
+                                    <span class="post-nav-title-item">通过免费腾讯企业邮使用Flarum邮件服务</span>
+                                    <span class="post-nav-item">上一篇</span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                            rel="next"
+                            href="/2023/03/13/05/"
+                            >
+                                <span class="title flex-center">
+                                    <span class="post-nav-title-item">关于高木圈域名“囤货”这件事</span>
+                                    <span class="post-nav-item">下一篇</span>
+                                </span>
+                                <span class="right arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+
+            
+                <div class="comment-container">
+                    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fa-solid fa-comments"></i>&nbsp;评论
+    </div>
+    
+
+        
+            
+ 
+    <div id="waline"></div>
+    <script type="module"  data-pjax>
+        import { init } from 'https://evan.beee.top/js/waline.mjs';
+
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://comment.mufeng086.com/',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+            });
+        }
+
+        if ('true') {
+            const loadWalineTimeout = setTimeout(() => {
+                loadWaline();
+                clearTimeout(loadWalineTimeout);
+            }, 1000);
+        } else {
+            window.addEventListener('DOMContentLoaded', loadWaline);
+        }
+        
+    </script>
+
+
+
+        
+    
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">此页目录</div>
+        <div class="page-title">Flarum论坛插件推荐（亲测可用，截至V1.7.2）</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%B8%96%E5%AD%90%E7%BC%96%E8%BE%91%E3%80%81%E5%8F%91%E5%B8%83%E7%AD%89"><span class="nav-text">一、帖子编辑、发布等</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%98%BE%E7%A4%BA%E3%80%81%E7%BE%8E%E5%8C%96"><span class="nav-text">二、显示、美化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E7%94%A8%E6%88%B7%E4%BA%92%E5%8A%A8-x2F-%E4%BD%BF%E7%94%A8"><span class="nav-text">三、用户互动&#x2F;使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E8%AE%BA%E5%9D%9B%E7%AE%A1%E7%90%86"><span class="nav-text">四、论坛管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E9%A6%96%E9%A1%B5%E5%B0%8F%E7%BB%84%E4%BB%B6"><span class="nav-text">五、首页小组件</span></a></li></ol>
+
+    </div>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+
+                
+
+            </div>
+            
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info">
+            &copy;
+            
+              <span>2022</span>
+              -
+            
+            2023&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">轻虹空雨</a>
+        </div>
+        
+            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv" class="busuanzi_container_site_uv">
+                        访问人数&nbsp;<span id="busuanzi_value_site_uv" class="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="busuanzi_container_site_pv">
+                        总访问量&nbsp;<span id="busuanzi_value_site_pv" class="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            <span class="powered-by-container">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" href="https://hexo.io">Hexo</a> 驱动</span>
+                <br>
+            <span class="theme-version-container">主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.2.1</a>
+        </div>
+        
+        
+        
+        
+            <div class="customize-info info-item"><a href="https://icp.gov.moe/?keyword=20238186" target="_blank">萌ICP备20238186号</a></div>
+        
+        
+        
+            
+                
+        
+                
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-expand-width flex-center">
+            <i class="fa-regular fa-expand"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+
+
+</main>
+
+
+
+<script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/utils.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/main.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/layouts/navbarShrink.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/tools/scrollTopBottom.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/tools/lightDarkSwitch.js"></script>
+
+
+
+
+    <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/tools/codeBlock.js"></script>
+
+
+
+    <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/layouts/lazyload.js"></script>
+
+
+
+
+
+  <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/libs/Typed.min.js"></script>
+  <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/plugins/typed.js"></script>
+
+
+
+
+
+
+<div class="post-scripts pjax">
+    
+        <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/tools/tocToggle.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/libs/anime.min.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/layouts/toc.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/plugins/tabs.js"></script>
+    
+</div>
+
+
+    <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.2.1/source/js/libs/pjax.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax',
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            Global.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            Global.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            Global.refresh();
+        });
+    });
+</script>
+
+
+
+
+</body>
+</html>
