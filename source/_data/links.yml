@@ -2,9 +2,9 @@
   has_thumbnail: true #是否显示网站大图
   list:
   - name: 一只鬆の小站
-    link: https://takagi.icu/
+    link: https://blog.sotkg.cn
     description: 圈内技术佬之一
-    avatar: https://pic.imgdb.cn/item/63e4d28a4757feff3370c18e.jpg
+    avatar: https://cravatar.cn/avatar/7a54b931dd7608d9b17b5625c31ed000?s=512&d=wavatar&r=g
     thumbnail: https://pic.imgdb.cn/item/6497cbd01ddac507cce6c8ad.png
 
   - name: 南栀Space
